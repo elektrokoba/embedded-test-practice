@@ -1,0 +1,11 @@
+2026-02-04T11:44:35.255172,TC-MASS-001,PASS,Massage enable/disable control verified
+2026-02-04T11:44:37.304629,TC-MASS-002,PASS,Level 1 verified: 20.0%
+2026-02-04T11:44:39.359095,TC-MASS-003,PASS,Level 3 verified: 60.0%
+2026-02-04T11:44:41.389433,TC-MASS-004,PASS,Level 5 verified: 100.0%
+2026-02-04T11:44:53.460371,TC-MASS-005,PASS,Wave pattern verified
+2026-02-04T11:45:03.476934,TC-MASS-006,PASS,Pulse pattern verified
+2026-02-04T11:46:03.582194,TC-MASS-007,PASS,Continuous pattern verified
+2026-02-04T11:46:07.743961,TC-MASS-008,PASS,Level 3 pressure verified: 120.0 kPa
+2026-02-04T11:46:07.748211,TC-MASS-010,PASS,Pump response time verified
+2026-02-04T11:46:07.954508,TC-MASS-011,PASS,Over-pressure relief verified: 120.0 kPa
+2026-02-04T11:46:40.273598,TC-STRESS-002,PASS,"Pattern switching verified, max deviation: 0.0 kPa"

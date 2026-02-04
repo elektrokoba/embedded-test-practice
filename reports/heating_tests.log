@@ -3,3 +3,7 @@
 2026-02-04T09:06:30.938256,TC-HEAT-003,PASS,Medium intensity verified: 50.0W
 2026-02-04T09:06:32.960722,TC-HEAT-004,PASS,High intensity verified: 70.0W
 2026-02-04T09:06:33.499431,TC-HEAT-006,PASS,Cold start: 0.0s
+2026-02-04T09:11:34.449002,TC-HEAT-007,PASS,Max temp verified: 65.0°C
+2026-02-04T09:11:36.170402,TC-HEAT-010,PASS,Low voltage operation verified
+2026-02-04T09:11:37.179935,TC-HEAT-011,PASS,High voltage operation verified
+2026-02-04T09:38:05.539536,TC-STRESS-001,PASS,"20 cycles completed, avg time: 19.2s"
