@@ -1,4 +1,4 @@
-# Gentherm Seat Comfort Module - Systems Verification Assignment
+# Systems Verification Assignment - Home Praktice
 
 ## Overview
 This project is a comprehensive systems verification assignment for an automotive seat comfort module featuring heating and pneumatic massage functionality. The assignment tests key skills in requirements decomposition, test case design, HIL (Hardware-in-the-Loop) testing, automated scripting, and verification reporting.
