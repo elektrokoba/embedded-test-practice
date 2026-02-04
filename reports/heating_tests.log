@@ -1,0 +1,5 @@
+2026-02-04T09:06:26.856657,TC-HEAT-001,PASS,Heat enable/disable control verified
+2026-02-04T09:06:28.899743,TC-HEAT-002,PASS,Low intensity verified: 30.0W
+2026-02-04T09:06:30.938256,TC-HEAT-003,PASS,Medium intensity verified: 50.0W
+2026-02-04T09:06:32.960722,TC-HEAT-004,PASS,High intensity verified: 70.0W
+2026-02-04T09:06:33.499431,TC-HEAT-006,PASS,Cold start: 0.0s

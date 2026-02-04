@@ -1,0 +1,61 @@
+VersionFormat=5.0 // Do not edit this line!
+Title="Seat Comfort Module CAN Database"
+{ENUMS}
+Enum=HeatIntensity(0="Off",1="Low",2="Medium",3="High")
+Enum=MassageIntensity(0="Off",1="Level1",2="Level2",3="Level3",4="Level4",5="Level5")
+Enum=MassagePattern(0="Wave",1="Pulse",2="Continuous")
+
+{SEND}
+
+[SEAT_CTRL_CMD]
+ID=100h
+Type=Standard
+DLC=8
+MuxSwitch=NOSYSIGNALNAME
+CycleTime=100
+
+SG=HeatEnable 0 1 1 0 1 /m:0
+
+SG=HeatIntensity 1 2 1 0 3 /m:0 /e:HeatIntensity
+
+SG=MassageEnable 8 1 1 0 1 /m:0
+
+SG=MassageIntensity 9 3 1 0 5 /m:0 /e:MassageIntensity
+
+SG=MassagePattern 12 3 1 0 7 /m:0 /e:MassagePattern
+
+
+{RECEIVE}
+
+[SEAT_HEAT_STATUS]
+ID=200h
+Type=Standard
+DLC=8
+CycleTime=100
+
+SG=Temperature 0 8 1 0 255 /max:100 /min:0 /u:C
+
+SG=HeaterDutyCycle 8 8 1 0 255 /max:100 /min:0 /u:%
+
+SG=HeatingActive 16 1 1 0 1
+
+SG=TemperatureWarning 17 1 1 0 1
+
+SG=HeaterFault 18 1 1 0 1
+
+
+[SEAT_MASSAGE_STATUS]
+ID=300h
+Type=Standard
+DLC=8
+CycleTime=100
+
+SG=Pressure 0 8 1 0 255 /max:200 /min:0 /u:kPa
+
+SG=PumpDutyCycle 8 8 1 0 255 /max:100 /min:0 /u:%
+
+SG=PumpActive 16 1 1 0 1
+
+SG=PressureWarning 17 1 1 0 1
+
+SG=PumpFault 18 1 1 0 1

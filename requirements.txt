@@ -1,0 +1,4 @@
+pytest>=7.0
+pytest-cov>=4.0
+cantools>=4.0
+python-can>=5.0
