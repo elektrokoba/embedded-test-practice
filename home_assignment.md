@@ -1,10 +1,10 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# in english
 
-Systems Verification Engineer Home Assignment for Gentherm (English Version)
+# AI generated home assignment
 
-This take-home assignment is tailored to the Gentherm job description, testing key skills like requirements decomposition, test case design, Vector HIL wiring diagrams, automated scripting, and reporting. It's designed for 4-6 hours of work, using an automotive electromechanical system example (seat comfort module: heating + pneumatic massage, aligned with Gentherm's thermal/pneumatic expertise).
+Systems Verification Engineer Home Assignment
+
+This take-home assignment is tailored to the Gentherm job description, testing key skills like requirements decomposition, test case design, Vector HIL wiring diagrams, automated scripting, and reporting. It's designed for 4-6 hours of work, using an automotive electromechanical system example (seat comfort module: heating + pneumatic massage, aligned with thermal/pneumatic expertise).
 
 ## Assignment Overview
 
@@ -71,6 +71,4 @@ test_heating_activation() {
 - Accuracy (edge cases, fault handling).
 - Clarity (readable tables/diagrams).
 - Automotive mindset (safety, CAN, HIL realism).
-
-This assignment directly assesses Gentherm's core needs: req management, HIL scripting, reporting. Practice with Vector CANoe (free trial available) and align it with your Continental GNSS testing experience for your application. Good luck!
 
